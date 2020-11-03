@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>پیگیری هزینه ها</title>
+</head>
+<body>
+    <div class="expense-container">
+        <form class="expense-form">
+            <h1>پیگیری هزینه ها</h1>
+                <input type="text" name="expense" placeholder="کجا هزینه شده؟" class="expense-name" required> :نام<br>
+                <input type="date" name="date" class="expense-date" required> :تاریخ <br> 
+                <input type="number" name="amount" class="expense-amount" required>  :مقدار <br> 
+                <input type="submit" name="submit" value="افزودن هزینه" class="add-expense">
+    
+        </form>
+        <table class="expense-table">   
+        </table>     
+    </div>
+
+    <script src="/app.js"></script>
+</body>
+</html>

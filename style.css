@@ -1,0 +1,53 @@
+.expense-container {
+    margin: 90px auto;
+    padding: 40px 60px;
+    text-align: right;
+    width: 50vw;
+    background-color:#fff8f0; 
+}
+input {
+    margin-bottom: 20px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button {
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}
+li {
+    margin-top: 30px;
+}
+.delete {
+    padding: 7px 9px;
+    background-color: lightcoral;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 100%;
+}
+table, th, td {
+    border: 3px solid green;
+    border-radius: 5px !important;
+    text-align: center;
+}
+.header-row {
+    color: red;
+}
+.add-expense {
+    padding: 7px 9px;
+    margin: 15px 15px;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.expense-name:focus {
+ border-color: red;
+}
